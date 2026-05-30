@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "autofish",
+  "version": "${version}",
+  "name": "AutoFish",
+  "description": "Automatic fishing bot for Hypixel Skyblock. Press [.] to toggle.",
+  "authors": [
+    "AutoFish"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.autofish.AutoFishMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11"
+  }
+}
