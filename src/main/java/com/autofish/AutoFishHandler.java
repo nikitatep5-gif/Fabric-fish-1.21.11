@@ -108,7 +108,7 @@ public class AutoFishHandler {
         }
 
         // Bobber still in air / on ground
-        if (!bobber.isInWater()) {
+        if (!bobber.isTouchingWater()) {
             ticksInWater = 0;
             return;
         }
